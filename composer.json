@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "neelkanthk/unit-conversions",
+    "description": "A simple PHP conversions package.",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "neelkanthk",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/neelkanthk/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Neelkanth Kaushik",
+            "email": "me.neelkanth@gmail.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Neelkanthk\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Neelkanthk\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
